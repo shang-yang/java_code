@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 引入外部DTD文件 -->
+<!DOCTYPE book SYSTEM "book.dtd">
+<books>
+	<book id="01">
+		<name>java从入门到精通</name>
+		<author>Tom</author>
+		<price>45.6</price>
+	</book>
+	<book id="02">
+		<name>mysql学习指南</name>
+		<author>lili</author>
+		<price>49.6</price>
+	</book>
+</books>

@@ -1,0 +1,6 @@
+16:35:01.093 INFO  com.shangyang.test.Hello 21 getHello - 我是info信息
+16:35:01.095 WARN  com.shangyang.test.Hello 22 getHello - 我是warn信息
+16:35:01.096 ERROR com.shangyang.test.Hello 23 getHello - 我是error信息
+16:35:01.096 FATAL com.shangyang.test.Hello 24 getHello - 我是fatal信息
+16:35:01.096 ERROR com.shangyang.test.Hi 35 getHi - 我是error信息
+16:35:01.096 FATAL com.shangyang.test.Hi 36 getHi - 我是fatal信息

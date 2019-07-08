@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <configuration status="WARN" monitorInterval="30">
+     <appenders>
+         <console name="Console" target="SYSTEM_OUT">
+             <PatternLayout pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
+         </console>
+     <File name="log" fileName="log/test.log" append="false">
+        <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
+     </File>
+     </appenders>
+     <loggers>
+     	<logger name="com.shangyang.test.Hello" level="info">
+     	</logger>
+         <root level="error">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="log"/>
+         </root>
+     </loggers>
+ </configuration>

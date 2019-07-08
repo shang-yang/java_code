@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sources>
+  <student id="1614010101">
+    <name>张三</name>
+    <course>数据结构</course>
+    <results>67</results>
+  </student>
+</sources>
